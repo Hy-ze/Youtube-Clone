@@ -1,0 +1,32 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    width: 74px;
+    background-color: white;
+    z-index: 9;
+}
+.sidebar-divs{
+    position: relative;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.sidebar-divs:hover{
+    background-color: rgb(238, 238, 238);
+}
+.image{
+    width: 24px;
+    position: absolute;
+    bottom: 34px;
+}
+.tooltip{
+    font-size: 10px;
+    position: absolute;
+    margin-top: 30px;
+}
